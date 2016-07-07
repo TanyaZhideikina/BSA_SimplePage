@@ -61,6 +61,8 @@ main{
 
 section.images{
     background-color:darkseagreen;
+    margin: 1%;
+    padding: 1%;
 }
 
 section.images section.imageRow{
@@ -78,7 +80,7 @@ section.imageRow img {
 }
 
 section.texts{
-    background-color:darkorange;  
+    background-color:darkorange; 
 }
 
 section.texts p{
