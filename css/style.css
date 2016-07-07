@@ -1,0 +1,90 @@
+header{
+    margin: 1%; 
+    padding: 1%;
+	display: flex;
+	vertical-align: middle;
+    line-height: normal; 
+	background-color: cyan;
+}
+
+header img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color:darkseagreen;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+	background-color: bisque;
+}
+
+nav { 
+    margin: 1%;
+    float: left;
+    background-color: orange;
+    display: block;
+    width: 200px;
+    position: static;
+    
+}
+
+nav a{ 
+    padding: 7%;
+    text-align: left;
+    display: block;
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+}
+
+main{ 
+    margin: 1%; 
+    padding: 1%;
+    background-color: aquamarine;
+}
+
+
+section.images{
+    display: inline-block;
+    background-color:darkseagreen;
+}
+
+section.images section.imageRow{
+    display: block;
+    background-color:darkorchid;
+}
+
+section.imageRow img {
+	width: 20%;
+	height: 20%;
+}
+
+section.texts{
+    display: block;
+    background-color:darkorange;
+}
+
+section.texts p{
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+    width: 25%; 
+    border: 1px solid black;
+    background-color: darkcyan;
+}
+
+footer{
+    margin: 1%; 
+    padding: 1%;
+    background-color: green;  
+}
+
+section.bottomSection p{
+    margin: 0;
+    padding: 1%;
+    display: inline-block;
+    width: 30%; 
+    border: 1px solid black;
+    background-color: darksalmon;
+}
